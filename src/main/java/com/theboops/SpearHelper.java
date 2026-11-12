@@ -1,4 +1,4 @@
-package git.noobs_create;
+package com.theboops;
 
 import net.fabricmc.api.ModInitializer;
 

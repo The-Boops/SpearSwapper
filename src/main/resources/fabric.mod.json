@@ -1,23 +1,22 @@
 {
 	"schemaVersion": 1,
-	"id": "spearhelp",
+	"id": "spearhelper",
 	"version": "${version}",
 	"name": "Spear Helper",
-	"description": "The Mod Is Helping You To Use Your Lunge Spear Simple!",
+	"description": "A Fabric Minecraft mod to help you Swap your Spear!",
 	"authors": [
-		"PrayoadMii",
 		"FeO_3"
 	],
 	"contact": {
-		"homepage": "https://modrinth.com/mod/spear-helper-fork"
+		"homepage": "https://modrinth.com/mod/spear-swapper"
 	},
-	"license": "CC0-1.0",
+	"license": "Apache-2.0",
 	"icon": "assets/icon.png",
 	"accessWidener": "spearhelper.accesswidener",
 	"environment": "*",
 	"entrypoints": {
 		"client": [
-			"git.noobs_create.client.SpearHelperClient"
+			"com.theboops.client.SpearHelperClient"
 		]
 	},
 	"mixins": [
@@ -33,7 +32,7 @@
 	},
 	"depends": {
 		"fabricloader": ">=0.19.3",
-		"minecraft": "~26.2",
+		"minecraft": ">=26.2",
 		"java": ">=25",
 		"fabric-api": "*"
 	}
